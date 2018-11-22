@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#49000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:layout_margin="10dp"
+            android:text="Select color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#696969"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:id="@+id/ll_color_white"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/black"
+                android:id="@+id/ll_color_black"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/holo_red_dark"
+                android:id="@+id/ll_color_red"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:id="@+id/ll_color_yellow"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#696969"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/holo_green_light"
+                android:id="@+id/ll_color_green"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/ll_color_blue"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="#f26ad0"
+                android:id="@+id/ll_color_magenta"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/ll_color_gray"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
