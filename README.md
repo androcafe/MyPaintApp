@@ -1,5 +1,6 @@
 # MyPaintApp
 Output for following project :
+This project consist of use of canvas with onTouch event.
 
 <div align="center">
     <img src="https://user-images.githubusercontent.com/35371687/48881295-a3e4e100-ee3a-11e8-88ad-030ff4bc3322.png" width="400px" hspace="20"></img> 
